@@ -1,0 +1,2 @@
+docker run -d --name ProstoEatDB -e POSTGRES_DB=ProstoEatDB -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 postgres:latest
+7861851520:AAEn8h4ghiq_hn_f_DeWTpVNUAZB0FgyO_U
