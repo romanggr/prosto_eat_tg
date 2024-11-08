@@ -1,10 +1,5 @@
-import telebot
-from config import API_TOKEN
 from db import get_user_calories, user_exists
 from keyboards import fill_personal_data, get_main_menu_keyboard
-
-# Ініціалізація бота
-bot = telebot.TeleBot(API_TOKEN)
 
 
 def register_pfc_handler(bot):
